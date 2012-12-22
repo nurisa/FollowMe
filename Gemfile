@@ -9,6 +9,10 @@ group :development, :test do
  gem 'rspec-rails'
 end
 
+group :test do
+ gem 'capybara'
+end
+
 gem 'json'
 
 # Gems used only for assets and not required
